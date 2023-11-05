@@ -4,13 +4,9 @@ public class University {
     private String shortName;
     private int yearOfFoundation;
     private StudyProfile mainProfile;
-
     private String address;
-
     private String phoneNumber;
-
     private String email;
-
     private String website;
 
     public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile, String address, String phoneNumber, String email, String website) {

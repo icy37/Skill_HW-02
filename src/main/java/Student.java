@@ -3,13 +3,9 @@ public class Student {
     private String universityId;
     private int currentCourseNumber;
     private float avgExamScore;
-
     private String gender;
-
     private String address;
-
     private String admissionDate;
-
     private String phoneNumber;
 
      public Student(String fullName, String universityId, int currentCourseNumber, float avgExamScore, String gender, String address, String admissionDate, String phoneNumber) {
