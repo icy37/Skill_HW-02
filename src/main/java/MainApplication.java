@@ -1,37 +1,22 @@
-import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.StandardCopyOption;
+import lib.XLSXReader;
+import model.Student;
+import model.University;
+
+import java.io.IOException;
 import java.util.List;
 
 public class MainApplication {
-    public static void main(String[] args) {
-        try (InputStream inputStream = MainApplication.class.getResourceAsStream("/universityInfo.xlsx")) {
-            if (inputStream != null) {
-                Path tempFile = Files.createTempFile("universityInfo", ".xlsx");
-                Files.copy(inputStream, tempFile, StandardCopyOption.REPLACE_EXISTING);
+    public static void main(String[] args) throws IOException {
+        List<University> universities =
+                XLSXReader.readXlsUniversities("src/main/resources/universityInfo.xlsx");
+        for(University university : universities) {
+            System.out.println(university);
+        }
 
-                InputStream studentsInputStream = Files.newInputStream(tempFile);
-                InputStream universitiesInputStream = Files.newInputStream(tempFile);
-
-                List<Student> students = XLSXReader.readStudentsFromInputStream(studentsInputStream);
-                List<University> universities = XLSXReader.readUniversitiesFromInputStream(universitiesInputStream);
-
-                // Вывод полученных элементов в консоль
-                System.out.println("Студенты:");
-                for (Student student : students) {
-                    System.out.println(student);
-                }
-
-                System.out.println("\nУниверситеты:");
-                for (University university : universities) {
-                    System.out.println(university);
-                }
-            } else {
-                System.out.println("Файл universityInfo.xlsx не найден.");
-            }
-        } catch (IOException e) {
-            e.printStackTrace(); // Обработка исключения IOException
+        List<Student> students =
+                XLSXReader.readXlsStudents("src/main/resources/universityInfo.xlsx");
+        for(Student student : students) {
+            System.out.println(student);
         }
     }
 }

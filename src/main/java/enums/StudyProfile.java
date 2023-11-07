@@ -1,3 +1,5 @@
+package enums;
+
 public enum StudyProfile {
     UNKNOWN("Не найден"),
     MEDICINE("Медицина"),
@@ -9,7 +11,6 @@ public enum StudyProfile {
     BUSINESS("Бизнес"),
     LITERATURE("Литература");
 
-
     private String profileName;
 
     private StudyProfile(String profileName) {
@@ -19,6 +20,4 @@ public enum StudyProfile {
     public String getProfileName() {
         return profileName;
     }
-
 }
-
