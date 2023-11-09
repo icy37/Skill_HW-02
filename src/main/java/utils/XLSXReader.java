@@ -1,4 +1,4 @@
-package lib;
+package utils;
 
 import enums.StudyProfile;
 import model.*;
