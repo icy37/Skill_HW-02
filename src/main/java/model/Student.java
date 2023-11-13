@@ -1,18 +1,35 @@
 package model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Student {
+    @SerializedName("studentName")
     private String fullName;
+
+    @SerializedName("universityId")
     private String universityId;
+
+    @SerializedName("course")
     private int currentCourseNumber;
+
+    @SerializedName("avgScore")
     private float avgExamScore;
+
+    @SerializedName("gender")
     private String gender;
+
+    @SerializedName("studentAddress")
     private String address;
+
+    @SerializedName("admissionDate")
     private String admissionDate;
+
+    @SerializedName("studentPhoneNumber")
     private String phoneNumber;
 
-     public Student(String fullName, String universityId, int currentCourseNumber, float avgExamScore, String gender, String address, String admissionDate, String phoneNumber) {
-        this.fullName = fullName;
+     public Student(String universityId, String fullName, int currentCourseNumber, float avgExamScore, String gender, String address, String admissionDate, String phoneNumber) {
         this.universityId = universityId;
+        this.fullName = fullName;
         this.currentCourseNumber = currentCourseNumber;
         this.avgExamScore = avgExamScore;
         this.gender = gender;
@@ -95,15 +112,15 @@ public class Student {
 
     @Override
     public String toString() {
-        return "lib.model.Student{" +
-                "fullName='" + fullName + '\'' +
-                ", universityId='" + universityId + '\'' +
-                ", currentCourseNumber=" + currentCourseNumber +
-                ", avgExamScore=" + avgExamScore +
-                ", gender='" + gender + '\'' +
-                ", address='" + address + '\'' +
-                ", admissionDate='" + admissionDate + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                '}';
+        return String.format("universityId = %s, fullName = %s, currentCourseNumber = %s, avgExamScore = %s, " +
+                        "gender = %s, address = %s, admissionDate = %s, phoneNumber = %s",
+                this.universityId,
+                this.fullName,
+                this.currentCourseNumber,
+                this.avgExamScore,
+                this.gender,
+                this.address,
+                this.admissionDate,
+                this.phoneNumber);
     }
 }
