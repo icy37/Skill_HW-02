@@ -13,14 +13,20 @@ import java.util.List;
 import java.util.OptionalDouble;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class StatisticsUtil {
+
+    private static final Logger logger = Logger.getLogger(StatisticsUtil.class.getName());
 
     private StatisticsUtil() {
     }
 
     public static List<Statistics> createStatistics(List<Student> students,
                                                     List<University> universities) {
+
+        logger.log(Level.INFO, "Модуль статистики запущен");
 
         List<Statistics> statisticsList = new ArrayList<>();
 
@@ -56,6 +62,9 @@ public class StatisticsUtil {
                     (float) BigDecimal.valueOf(value).setScale(2, RoundingMode.HALF_UP).doubleValue()));
             System.out.println(statistics.getAvgExamScore());
         });
+
+        logger.log(Level.INFO,
+                String.format("Модуль статистики завершил работу %s количество объектов", statisticsList.size()));
 
         return statisticsList;
     }
