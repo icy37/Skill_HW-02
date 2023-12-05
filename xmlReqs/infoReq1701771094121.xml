@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <studentsInfo>
+        <studentEntry>
+            <address>Липецк, улица Озерная, 791</address>
+            <admissionDate>2022-11-30 12:03:59</admissionDate>
+            <avgExamScore>5.0</avgExamScore>
+            <currentCourseNumber>1</currentCourseNumber>
+            <fullName>Петров П. А.</fullName>
+            <gender>мужской</gender>
+            <phoneNumber>7(495)597-16-27</phoneNumber>
+            <universityId>0001-high</universityId>
+        </studentEntry>
+        <studentEntry>
+            <address>Тамбов, Курская ул., 426</address>
+            <admissionDate>2022-09-22 14:25:07</admissionDate>
+            <avgExamScore>5.0</avgExamScore>
+            <currentCourseNumber>1</currentCourseNumber>
+            <fullName>Алексеев С. В.</fullName>
+            <gender>мужской</gender>
+            <phoneNumber>7(495)275-67-50</phoneNumber>
+            <universityId>0001-high</universityId>
+        </studentEntry>
+        <studentEntry>
+            <address>Химки, Казачья улица, 330</address>
+            <admissionDate>2023-07-20 16:36:44</admissionDate>
+            <avgExamScore>4.8</avgExamScore>
+            <currentCourseNumber>1</currentCourseNumber>
+            <fullName>Соколова В. В.</fullName>
+            <gender>женский</gender>
+            <phoneNumber>7(495)609-24-00</phoneNumber>
+            <universityId>0004-high</universityId>
+        </studentEntry>
+        <studentEntry>
+            <address>Тула, пл. Смоленская, 958</address>
+            <admissionDate>2022-11-13 13:51:56</admissionDate>
+            <avgExamScore>4.8</avgExamScore>
+            <currentCourseNumber>3</currentCourseNumber>
+            <fullName>Иванова А. Г.</fullName>
+            <gender>женский</gender>
+            <phoneNumber>7(495)823-05-89</phoneNumber>
+            <universityId>0001-high</universityId>
+        </studentEntry>
+        <studentEntry>
+            <address>Зеленоград, Деповская ул., 308</address>
+            <admissionDate>2023-03-29 14:06:05</admissionDate>
+            <avgExamScore>4.7</avgExamScore>
+            <currentCourseNumber>4</currentCourseNumber>
+            <fullName>Васильев В. П.</fullName>
+            <gender>мужской</gender>
+            <phoneNumber>7(495)705-32-52</phoneNumber>
+            <universityId>0001-high</universityId>
+        </studentEntry>
+        <studentEntry>
+            <address>Кинешма, наб. Степная, 574</address>
+            <admissionDate>2023-10-29 15:19:25</admissionDate>
+            <avgExamScore>4.6</avgExamScore>
+            <currentCourseNumber>2</currentCourseNumber>
+            <fullName>Козлов М. В.</fullName>
+            <gender>мужской</gender>
+            <phoneNumber>7(495)972-87-91</phoneNumber>
+            <universityId>0002-high</universityId>
+        </studentEntry>
+        <studentEntry>
+            <address>Кострома, Дорожная улица, 775</address>
+            <admissionDate>2023-09-01 08:57:05</admissionDate>
+            <avgExamScore>4.3</avgExamScore>
+            <currentCourseNumber>4</currentCourseNumber>
+            <fullName>Игнатьев М. М.</fullName>
+            <gender>мужской</gender>
+            <phoneNumber>7(495)249-95-64</phoneNumber>
+            <universityId>0003-high</universityId>
+        </studentEntry>
+        <studentEntry>
+            <address>Ярославль, Трудовая пл., 459</address>
+            <admissionDate>2023-01-10 10:06:19</admissionDate>
+            <avgExamScore>4.2</avgExamScore>
+            <currentCourseNumber>3</currentCourseNumber>
+            <fullName>Фёдорова А. И.</fullName>
+            <gender>женский</gender>
+            <phoneNumber>7(495)763-28-70</phoneNumber>
+            <universityId>0002-high</universityId>
+        </studentEntry>
+        <studentEntry>
+            <address>Краснодар, Тупиковая набережная, 044</address>
+            <admissionDate>2022-11-20 12:01:12</admissionDate>
+            <avgExamScore>4.0</avgExamScore>
+            <currentCourseNumber>2</currentCourseNumber>
+            <fullName>Иванов И. А.</fullName>
+            <gender>мужской</gender>
+            <phoneNumber>7(495)095-25-41</phoneNumber>
+            <universityId>0002-high</universityId>
+        </studentEntry>
+        <studentEntry>
+            <address>Москва, Прудовая ал., 710</address>
+            <admissionDate>2022-10-26 13:35:13</admissionDate>
+            <avgExamScore>4.0</avgExamScore>
+            <currentCourseNumber>2</currentCourseNumber>
+            <fullName>Витальев В. А.</fullName>
+            <gender>мужской</gender>
+            <phoneNumber>7(495)081-86-19</phoneNumber>
+            <universityId>0001-high</universityId>
+        </studentEntry>
+        <studentEntry>
+            <address>Москва, наб. Заречная, 180</address>
+            <admissionDate>2023-05-09 11:07:39</admissionDate>
+            <avgExamScore>3.9</avgExamScore>
+            <currentCourseNumber>2</currentCourseNumber>
+            <fullName>Сидорова Е. Г.</fullName>
+            <gender>женский</gender>
+            <phoneNumber>7(495)822-61-35</phoneNumber>
+            <universityId>0004-high</universityId>
+        </studentEntry>
+    </studentsInfo>
+    <universitiesInfo>
+        <universityEntry>
+            <address>Самара, Полесская ул., д. 4</address>
+            <email>med_inst@smr.ru</email>
+            <fullName>Самарский Медицинский Институт</fullName>
+            <id>0005-high</id>
+            <mainProfile>MEDICINE</mainProfile>
+            <phoneNumber>7(495)588-90-12</phoneNumber>
+            <shortName>СМИ</shortName>
+            <website>smr.ru</website>
+            <yearOfFoundation>1936</yearOfFoundation>
+        </universityEntry>
+        <universityEntry>
+            <address>Москва, Дорожная ул., д. 6</address>
+            <email>med_univer@mos.ru</email>
+            <fullName>Московский Государственный Медицинский Университет</fullName>
+            <id>0003-high</id>
+            <mainProfile>MEDICINE</mainProfile>
+            <phoneNumber>7(495)596-63-32</phoneNumber>
+            <shortName>МГМУ</shortName>
+            <website>mos.ru</website>
+            <yearOfFoundation>1960</yearOfFoundation>
+        </universityEntry>
+        <universityEntry>
+            <address>Москва, Колхозный пер., д. 1</address>
+            <email>inst@mos.ru</email>
+            <fullName>Московский Придуманный Институт</fullName>
+            <id>0002-high</id>
+            <mainProfile>PHYSICS</mainProfile>
+            <phoneNumber>7(495)326-85-00</phoneNumber>
+            <shortName>МПИ</shortName>
+            <website>mos.ru</website>
+            <yearOfFoundation>1987</yearOfFoundation>
+        </universityEntry>
+        <universityEntry>
+            <address>Казань, Белорусская ул., д. 15</address>
+            <email>math_univer@kz.ru</email>
+            <fullName>Казанский Университет Вычислений</fullName>
+            <id>0007-high</id>
+            <mainProfile>MATHEMATICS</mainProfile>
+            <phoneNumber>7(495)382-62-40</phoneNumber>
+            <shortName>КУВ</shortName>
+            <website>kz.ru</website>
+            <yearOfFoundation>1989</yearOfFoundation>
+        </universityEntry>
+        <universityEntry>
+            <address>Москва, Полесская ул., д. 22</address>
+            <email>univer@mos.ru</email>
+            <fullName>Московский Выдуманный Университет</fullName>
+            <id>0001-high</id>
+            <mainProfile>PHYSICS</mainProfile>
+            <phoneNumber>7(495)188-74-12</phoneNumber>
+            <shortName>МВУ</shortName>
+            <website>mos.ru</website>
+            <yearOfFoundation>1990</yearOfFoundation>
+        </universityEntry>
+        <universityEntry>
+            <address>Тамбов, Дзержинского ул., д. 21</address>
+            <email>med_univer@tamb.ru</email>
+            <fullName>Тамбовский Университет Медицины</fullName>
+            <id>0004-high</id>
+            <mainProfile>MEDICINE</mainProfile>
+            <phoneNumber>7(495)127-79-60</phoneNumber>
+            <shortName>ТУМ</shortName>
+            <website>tamb.ru</website>
+            <yearOfFoundation>1995</yearOfFoundation>
+        </universityEntry>
+        <universityEntry>
+            <address>Воронеж, Гагарина ул., д. 14</address>
+            <email>liter_univer@vrnzh.ru</email>
+            <fullName>Воронежский Литературно-Переводческий Университет</fullName>
+            <id>0006-high</id>
+            <mainProfile>LINGUISTICS</mainProfile>
+            <phoneNumber>7(495)492-99-32</phoneNumber>
+            <shortName>ВЛПУ</shortName>
+            <website>vrnzh.ru</website>
+            <yearOfFoundation>2003</yearOfFoundation>
+        </universityEntry>
+    </universitiesInfo>
+    <statisticalInfo>
+        <statisticsEntry>
+            <avgExamScore>4.33</avgExamScore>
+            <numberOfStudents>3</numberOfStudents>
+            <numberOfUniversities>3</numberOfUniversities>
+            <profile>MEDICINE</profile>
+            <universityNames>Самарский Медицинский Институт;Московский Государственный Медицинский Университет;Тамбовский Университет Медицины;</universityNames>
+        </statisticsEntry>
+        <statisticsEntry>
+            <avgExamScore>0.0</avgExamScore>
+            <numberOfStudents>0</numberOfStudents>
+            <numberOfUniversities>1</numberOfUniversities>
+            <profile>MATHEMATICS</profile>
+            <universityNames>Казанский Университет Вычислений;</universityNames>
+        </statisticsEntry>
+        <statisticsEntry>
+            <avgExamScore>0.0</avgExamScore>
+            <numberOfStudents>0</numberOfStudents>
+            <numberOfUniversities>1</numberOfUniversities>
+            <profile>LINGUISTICS</profile>
+            <universityNames>Воронежский Литературно-Переводческий Университет;</universityNames>
+        </statisticsEntry>
+        <statisticsEntry>
+            <avgExamScore>4.54</avgExamScore>
+            <numberOfStudents>8</numberOfStudents>
+            <numberOfUniversities>2</numberOfUniversities>
+            <profile>PHYSICS</profile>
+            <universityNames>Московский Придуманный Институт;Московский Выдуманный Университет;</universityNames>
+        </statisticsEntry>
+    </statisticalInfo>
+    <processedAt>2023-12-05T13:11:33.956+03:00</processedAt>
+</root>

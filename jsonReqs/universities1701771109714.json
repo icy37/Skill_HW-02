@@ -1,0 +1,79 @@
+[
+  {
+    "universityId": "0005-high",
+    "universityName": "Самарский Медицинский Институт",
+    "universityShortName": "СМИ",
+    "universityFoundation": 1936,
+    "universityProfile": "MEDICINE",
+    "universityAddress": "Самара, Полесская ул., д. 4",
+    "universityPhoneNumber": "7(495)588-90-12",
+    "universityEmail": "med_inst@smr.ru",
+    "universityWebsite": "smr.ru"
+  },
+  {
+    "universityId": "0003-high",
+    "universityName": "Московский Государственный Медицинский Университет",
+    "universityShortName": "МГМУ",
+    "universityFoundation": 1960,
+    "universityProfile": "MEDICINE",
+    "universityAddress": "Москва, Дорожная ул., д. 6",
+    "universityPhoneNumber": "7(495)596-63-32",
+    "universityEmail": "med_univer@mos.ru",
+    "universityWebsite": "mos.ru"
+  },
+  {
+    "universityId": "0002-high",
+    "universityName": "Московский Придуманный Институт",
+    "universityShortName": "МПИ",
+    "universityFoundation": 1987,
+    "universityProfile": "PHYSICS",
+    "universityAddress": "Москва, Колхозный пер., д. 1",
+    "universityPhoneNumber": "7(495)326-85-00",
+    "universityEmail": "inst@mos.ru",
+    "universityWebsite": "mos.ru"
+  },
+  {
+    "universityId": "0007-high",
+    "universityName": "Казанский Университет Вычислений",
+    "universityShortName": "КУВ",
+    "universityFoundation": 1989,
+    "universityProfile": "MATHEMATICS",
+    "universityAddress": "Казань, Белорусская ул., д. 15",
+    "universityPhoneNumber": "7(495)382-62-40",
+    "universityEmail": "math_univer@kz.ru",
+    "universityWebsite": "kz.ru"
+  },
+  {
+    "universityId": "0001-high",
+    "universityName": "Московский Выдуманный Университет",
+    "universityShortName": "МВУ",
+    "universityFoundation": 1990,
+    "universityProfile": "PHYSICS",
+    "universityAddress": "Москва, Полесская ул., д. 22",
+    "universityPhoneNumber": "7(495)188-74-12",
+    "universityEmail": "univer@mos.ru",
+    "universityWebsite": "mos.ru"
+  },
+  {
+    "universityId": "0004-high",
+    "universityName": "Тамбовский Университет Медицины",
+    "universityShortName": "ТУМ",
+    "universityFoundation": 1995,
+    "universityProfile": "MEDICINE",
+    "universityAddress": "Тамбов, Дзержинского ул., д. 21",
+    "universityPhoneNumber": "7(495)127-79-60",
+    "universityEmail": "med_univer@tamb.ru",
+    "universityWebsite": "tamb.ru"
+  },
+  {
+    "universityId": "0006-high",
+    "universityName": "Воронежский Литературно-Переводческий Университет",
+    "universityShortName": "ВЛПУ",
+    "universityFoundation": 2003,
+    "universityProfile": "LINGUISTICS",
+    "universityAddress": "Воронеж, Гагарина ул., д. 14",
+    "universityPhoneNumber": "7(495)492-99-32",
+    "universityEmail": "liter_univer@vrnzh.ru",
+    "universityWebsite": "vrnzh.ru"
+  }
+]

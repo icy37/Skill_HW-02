@@ -3,11 +3,13 @@ import enums.UniversityComparatorType;
 import interfaces.StudentComparator;
 import interfaces.UniversityComparator;
 import model.Statistics;
+import model.XMLModels;
 import utils.*;
 import model.Student;
 import model.University;
 
 import java.io.IOException;
+import java.util.Date;
 import java.util.List;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
@@ -42,6 +44,15 @@ public class MainApplication {
 
         List<Statistics> statisticsList = StatisticsUtil.createStatistics(students, universities);
         XLSXWriter.writeXlsStatistics(statisticsList, "statistics.xlsx");
+
+        XMLModels xmlModels = new XMLModels()
+                .setStudentList(students)
+                .setUniversityList(universities)
+                .setStatisticsList(statisticsList)
+                .setProcessDate(new Date());
+
+        XMLWriter.generateXmlReq(xmlModels);
+        JsonWriter.writeJsonReq(xmlModels);
 
         logger.log(INFO, "Приложение закрыто");
     }

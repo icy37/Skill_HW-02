@@ -1,0 +1,112 @@
+[
+  {
+    "studentName": "Петров П. А.",
+    "universityId": "0001-high",
+    "course": 1,
+    "avgScore": 5.0,
+    "gender": "мужской",
+    "studentAddress": "Липецк, улица Озерная, 791",
+    "admissionDate": "2022-11-30 12:03:59",
+    "studentPhoneNumber": "7(495)597-16-27"
+  },
+  {
+    "studentName": "Алексеев С. В.",
+    "universityId": "0001-high",
+    "course": 1,
+    "avgScore": 5.0,
+    "gender": "мужской",
+    "studentAddress": "Тамбов, Курская ул., 426",
+    "admissionDate": "2022-09-22 14:25:07",
+    "studentPhoneNumber": "7(495)275-67-50"
+  },
+  {
+    "studentName": "Соколова В. В.",
+    "universityId": "0004-high",
+    "course": 1,
+    "avgScore": 4.8,
+    "gender": "женский",
+    "studentAddress": "Химки, Казачья улица, 330",
+    "admissionDate": "2023-07-20 16:36:44",
+    "studentPhoneNumber": "7(495)609-24-00"
+  },
+  {
+    "studentName": "Иванова А. Г.",
+    "universityId": "0001-high",
+    "course": 3,
+    "avgScore": 4.8,
+    "gender": "женский",
+    "studentAddress": "Тула, пл. Смоленская, 958",
+    "admissionDate": "2022-11-13 13:51:56",
+    "studentPhoneNumber": "7(495)823-05-89"
+  },
+  {
+    "studentName": "Васильев В. П.",
+    "universityId": "0001-high",
+    "course": 4,
+    "avgScore": 4.7,
+    "gender": "мужской",
+    "studentAddress": "Зеленоград, Деповская ул., 308",
+    "admissionDate": "2023-03-29 14:06:05",
+    "studentPhoneNumber": "7(495)705-32-52"
+  },
+  {
+    "studentName": "Козлов М. В.",
+    "universityId": "0002-high",
+    "course": 2,
+    "avgScore": 4.6,
+    "gender": "мужской",
+    "studentAddress": "Кинешма, наб. Степная, 574",
+    "admissionDate": "2023-10-29 15:19:25",
+    "studentPhoneNumber": "7(495)972-87-91"
+  },
+  {
+    "studentName": "Игнатьев М. М.",
+    "universityId": "0003-high",
+    "course": 4,
+    "avgScore": 4.3,
+    "gender": "мужской",
+    "studentAddress": "Кострома, Дорожная улица, 775",
+    "admissionDate": "2023-09-01 08:57:05",
+    "studentPhoneNumber": "7(495)249-95-64"
+  },
+  {
+    "studentName": "Фёдорова А. И.",
+    "universityId": "0002-high",
+    "course": 3,
+    "avgScore": 4.2,
+    "gender": "женский",
+    "studentAddress": "Ярославль, Трудовая пл., 459",
+    "admissionDate": "2023-01-10 10:06:19",
+    "studentPhoneNumber": "7(495)763-28-70"
+  },
+  {
+    "studentName": "Иванов И. А.",
+    "universityId": "0002-high",
+    "course": 2,
+    "avgScore": 4.0,
+    "gender": "мужской",
+    "studentAddress": "Краснодар, Тупиковая набережная, 044",
+    "admissionDate": "2022-11-20 12:01:12",
+    "studentPhoneNumber": "7(495)095-25-41"
+  },
+  {
+    "studentName": "Витальев В. А.",
+    "universityId": "0001-high",
+    "course": 2,
+    "avgScore": 4.0,
+    "gender": "мужской",
+    "studentAddress": "Москва, Прудовая ал., 710",
+    "admissionDate": "2022-10-26 13:35:13",
+    "studentPhoneNumber": "7(495)081-86-19"
+  },
+  {
+    "studentName": "Сидорова Е. Г.",
+    "universityId": "0004-high",
+    "course": 2,
+    "avgScore": 3.9,
+    "gender": "женский",
+    "studentAddress": "Москва, наб. Заречная, 180",
+    "admissionDate": "2023-05-09 11:07:39",
+    "studentPhoneNumber": "7(495)822-61-35"
+  }
+]
